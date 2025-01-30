@@ -1,0 +1,133 @@
+
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: #fafdff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 0px;
+}
+h2{
+    margin-top: 10px;
+    margin-left: 400px;
+}
+.form{
+    width: 100%;
+    height: 100vh;
+    margin: 30px;
+    padding: 30px;
+    gap: 30px;
+    position: fixed;
+    top: 40px;
+    left: 0;
+}
+.name,.email,.number,.img,.loc,.des{
+    
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.name{
+    margin-left: 400px;
+    margin-top: 40px;
+    
+}
+.email{
+    margin-left:200px;
+}
+.input-name{
+    width: 200px;
+    height: 30px;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.input-email{
+    width: 200px;
+    height: 30px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.number{
+    margin-left: 400px;
+    
+}
+.img{
+    margin-left:220px;
+}
+.input-num{
+    width: 200px;
+    height: 30px;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.input-img{
+    width: 200px;
+    height: 30px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.input-loc{
+    width: 200px;
+    height: 30px;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.loc{
+    margin-left: 400px;
+}
+.des{
+    margin-left: 400px;
+}
+.input-des{
+    
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.donate-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+.item-box {
+    margin-bottom: 30px;
+    width: 500px;  /* Set width for the box */
+    height: 200px; /* Set height for the box */
+    border: 1px solid #ddd;  /* Light border for the box */
+    border-radius: 8px;  /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+    background-color: #fff;  /* White background */
+    display: flex;
+    flex-direction: row;  /* Stack contents vertically */
+      /* Distribute content evenly */
+    padding: 20px;  /* Padding inside the box */
+    overflow: hidden;  /* Ensure content doesn't overflow the box */
+  }
+  
+.item-img{
+    width: 45%;
+    height: 300px;
+    
+}
+.item-img1{
+    width: 45%;
+    height: 200px;
+    margin-left: 30px;
+}
+.items
+{
+    margin-top: 200px;
+}
+.title{
+    color:black;
+    text-shadow: #fff;
+    font-size: 20px;
+    margin-top: 0px;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+.item-text1{
+    width: 45%;
+}
