@@ -1,0 +1,23 @@
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    margin: 10px;
+  }
+  
+  .footer-bottom {
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  

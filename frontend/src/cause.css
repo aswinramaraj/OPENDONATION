@@ -1,0 +1,78 @@
+/* Cause.css */
+
+/* Container for the Cause component */
+.cause-container {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    max-width: 800px;
+  }
+  
+  /* Heading for the Cause section */
+  .cause-container h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Paragraph description */
+  .cause-container p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  
+  /* Container for the list of causes */
+  .cause-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1.5rem;
+  }
+  
+  /* Individual cause item */
+  .cause-item {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 2rem);
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .cause-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Cause item heading */
+  .cause-item h3 {
+    font-size: 1.5rem;
+    color: #222;
+    margin-bottom: 1rem;
+  }
+  
+  /* Cause item description */
+  .cause-item p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .cause-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .cause-item {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
